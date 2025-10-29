@@ -10,6 +10,7 @@ body{
     min-height: 100vh;
     background-color: black;
     color: white;
+    box-shadow: 5px 37px 21px 7px rgba(0,0,0,0.98) inset;
 }
 header{
     display: flex;
@@ -30,8 +31,9 @@ header{
     list-style: none;
     justify-content: center;
     align-items: center;
+    
 }
-h2{
+a{
     color: white;
 }
 .trailer{
@@ -63,6 +65,23 @@ main{
     padding-left: 80px;
     background: linear-gradient(to right, black 60%, rgba (0,0,0,0) 100%);
     z-index: 2;
+    margin-top: -400px;
+}
+.Botao{
+    background-color: #d30706;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    margin-left: 180px;
+}
+.mensagem{
+    margin-left: 180px;
+    margin-bottom: -250px;
+    
 }
 .imagem_batman{
     position: relative;
@@ -73,5 +92,14 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    box-shadow: 28px -21px 26px 49px rgba(0,0,0,1) inset;
+    box-shadow: 58px -17px 54px 73px rgba(0,0,0,1) inset;
 }
+
+footer{
+    display: flex;
+    justify-content: right;
+   
+    
+}
+
+
